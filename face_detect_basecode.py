@@ -21,4 +21,4 @@ with torch.no_grad():
 emotions = ['Angry', 'Disgust', 'Fear', 'Happy', 'Sad', 'Surprise', 'Neutral']
 
 print("Predicted Emotion:", emotions[pred])
-print("Confidence:", probs[0][pred].item())
+print("Confidence:", probs[1][pred].item())
